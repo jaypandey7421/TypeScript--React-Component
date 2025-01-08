@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+  --misty-blue: #AEB8C4;
+  --dark-blue: #05263B;
+  --blue-grotto: #163B50;
+  --slate: #9CA6B8;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
