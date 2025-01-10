@@ -12,7 +12,7 @@ const Navbar :React.FC = ()=>{
     return(
         <nav>
            <h3>Нав Бранд</h3>
-           <ul className='nav-links'>
+           <ul className={toggleNav?'toggle-nav':'nav-links'}>
             <li><a href="#">Хоме</a></li>
             <li><a href="#">парламента</a></li>
             <li><a href="#">парламента</a></li>

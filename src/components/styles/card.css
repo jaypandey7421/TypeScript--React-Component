@@ -1,0 +1,36 @@
+.card{
+    width: 280px;
+    height: 350px;
+    border: 2px solid rgba(232, 235, 236, 0.705);
+    border-radius: 2rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.card:hover{
+    -webkit-box-shadow: -3px 9px 52px 1px rgba(0,0,0,0.66);
+    -moz-box-shadow: -3px 9px 52px 1px rgba(0,0,0,0.66);
+    box-shadow: -3px 9px 52px 1px rgba(0,0,0,0.66);
+    transition: all 0.3s ease;
+}
+.card-img-box{
+    height: 60%;
+    overflow: hidden
+}
+.card-img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+.card-info-box{
+    text-align: center;
+    padding: 1rem;
+}
+.card-info-box p{
+    font-size: 12px;
+    opacity: 0.8;
+    position: relative;
+    top: 4rem;
+}
+.card-info-box span{
+    margin: 1rem 12px;
+}
